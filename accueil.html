@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8" />
+		<title>Mix Your Tube</title>
+		<link rel="icon" type="image/png" href="/ressources/images/mafavicon.ico" />
+		<script src="/ressources/js/libs/jquery-1.9.0/jquery.min.js"></script>
+        <script src="/ressources/js/buffer-loader.js"></script>
+        <script src="/ressources/js/sound.js"></script>
+		<script src="/ressources/js/player.js"></script>
+	</head>
+    <body onload="init();">
+		<h1>Mix Your Tube</h1>
+		<button id = "load" onclick="loadSound();">Charger son via XhR2</button>
+		<button id="play" onclick="playSound();" disabled>Lecture du son</button>
+		<button id="stop" onclick="stopSound();" disabled>Stopper le son</button>
+	</body>
+</html>
